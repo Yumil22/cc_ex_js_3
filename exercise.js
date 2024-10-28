@@ -12,7 +12,14 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
-    
+    new_arr = []
+    for (let element of arr){
+        if (element){
+            new_arr.push(element)
+        }
+    } 
+
+    return(new_arr)
     
     /* Only make changes below this comment */
 }
