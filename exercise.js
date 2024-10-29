@@ -12,8 +12,17 @@
 /** DO NOT CHANGE THE FUNCTION NAME **/
 const youShallNotPass = (arr) => {
     /* Only make changes below this comment */
+
+    /* Valores falsey pueden ser; false,0,"",null,undefined y NaN */
     
-    
+    const RemoverFalsy = (arr) => {
+        return arr.filter(value => value);
+    }
+
+    let nuevoArray = RemoverFalsy(arr);
+    return nuevoArray;
+
+
     /* Only make changes below this comment */
 }
 
